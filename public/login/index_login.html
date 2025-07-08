@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Grêmio GSD</title>
+  <link href="login.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="login-main">
+    <div class="login-left">
+      <div class="logo-box">
+        <!-- Substitua o SVG abaixo pelo SVG do chapéu de formatura do seu site -->
+        <img src="GSD.png" alt="Logo Grêmio GSD" class="logo-img" />
+      </div>
+      <h2>Bem-vindo(a)</h2>
+      <p>Faça login para continuar</p>
+    </div>
+    <div class="login-right">
+      <h1>Entrar</h1>
+      <form id="login-form">
+        <label for="email">E-mail institucional</label>
+        <input type="email" id="email" placeholder="seu.email@gsd.org" required />
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="********" required />
+        <button type="submit" class="btn-login">Entrar</button>
+        <div class="social-login">
+          <p>Redes Sociais do Desenvolvedor</p>
+          <button type="button" class="btn-social linkedin" onclick="window.location.href='https://www.linkedin.com/bielizr'">
+            <i class="fab fa-linkedin"></i> Linkedin
+          </button>
+          <button type="button" class="btn-social github" onclick="window.location.href='https://github.com/bielizr'">
+            <i class="fab fa-github"></i> Github
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+
+</html>

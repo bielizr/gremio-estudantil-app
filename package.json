@@ -1,0 +1,21 @@
+{
+  "name": "gsd-site",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "mongodb": "^6.17.0",
+    "multer": "^2.0.0",
+    "npm": "^11.4.1",
+    "sqlite3": "^5.1.7"
+  }
+}
